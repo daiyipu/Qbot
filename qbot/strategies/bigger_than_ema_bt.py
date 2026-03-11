@@ -20,6 +20,10 @@ from __future__ import absolute_import, division, print_function, unicode_litera
 
 from datetime import date, datetime  # For datetime objects
 
+# Set matplotlib backend for headless environments
+import matplotlib
+matplotlib.use('Agg')
+
 # Import the backtrader platform
 import backtrader as bt
 import pandas as pd
