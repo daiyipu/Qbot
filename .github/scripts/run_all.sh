@@ -39,7 +39,6 @@ function parse_cmdline_args() {
       -t | --test)
         python "${TOP_DIR}"/qbot/strategies/bigger_than_ema_bt.py
         python "${TOP_DIR}"/qbot/strategies/boll_strategy_bt.py
-        python "${TOP_DIR}"/qbot_main.py
         ;;
       -h | --help)
         usage

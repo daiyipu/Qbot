@@ -10,6 +10,8 @@ backtrader
 
 # Data sources
 baostock
+tushare
+akshare<1.17.0
 
 # Utilities
 requests
@@ -18,22 +20,3 @@ loguru
 # Statistics
 scipy
 scikit-learn
-
-# Optional - comment out if not needed for CI
-# git+https://github.com/quantopian/pyfolio
-# backtrader_plotting
-# statsmodels
-# quantstats
-# binance-connector
-# pillow
-# pykalman
-# IPython
-# empyrical
-# jupyter
-# pyglet==1.5.0
-# tensorboard
-# tensortrade
-# yfinance
-# efinance
-# akshare
-# pandas_datareader
