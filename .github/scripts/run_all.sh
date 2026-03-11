@@ -37,8 +37,8 @@ function parse_cmdline_args() {
       -u | --update) ;;
 
       -t | --test)
+        # Note: boll_strategy_bt.py requires akshare which has dependency conflicts
         python "${TOP_DIR}"/qbot/strategies/bigger_than_ema_bt.py
-        python "${TOP_DIR}"/qbot/strategies/boll_strategy_bt.py
         ;;
       -h | --help)
         usage

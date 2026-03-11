@@ -11,7 +11,11 @@ backtrader
 # Data sources
 baostock
 tushare
-akshare==1.15.0
+
+# akshare - temporarily disabled due to dependency conflicts
+# Uncomment when dependencies are resolved
+# akshare==1.16.72
+# aiohttp>=3.11.13
 
 # Utilities
 requests
