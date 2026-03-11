@@ -11,7 +11,7 @@ backtrader
 # Data sources
 baostock
 tushare
-akshare<1.17.0
+akshare==1.15.0
 
 # Utilities
 requests
