@@ -1,5 +1,5 @@
 # Core dependencies
-pandas
+pandas<2.0
 numpy
 
 # Data visualization
